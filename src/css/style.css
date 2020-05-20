@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -34,24 +38,24 @@ h1 {
 }
 .title {
     color: #f9bf3b;
-    font-family: "Roboto - Black";
     font-size: 41px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
+    font-family: 'Chiaugal-Regular';
 }
 h2.title {
     margin-top: 30px;
 }
 .simple .title_big {
     color: white;
-    font-family: "Roboto - Black";
     font-size: 80px;
-    font-weight: 400;
+    font-weight: normal;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
+    font-family: 'Chiaugal-Regular';
 }
 .promo .promo_text {
     margin-top: 23px;
@@ -61,12 +65,10 @@ h2.title {
     font-size: 21px;
     font-weight: 300;
     line-height: 28px;
-    font-family: "Roboto Light";
     text-align: center;
 }
 .promo .promo_text span {
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
     font-weight: 700;
 }
 .promo .promo_btn, .gift_btn {
